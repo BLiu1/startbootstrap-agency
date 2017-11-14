@@ -1,29 +1,32 @@
 {
-  "title": "Agency",
-  "name": "startbootstrap-agency",
-  "version": "4.0.0-beta.2",
-  "description": "Agency is a one page HTML theme for Bootstrap.",
+  "title": "UW Human Powered Submarine Team Website",
+  "name": "uwhpsub-website",
+  "version": "0.0.0-alpha.0",
+  "description": "The website is a one page info site for the University of Washington Human Powered Submarine Team.",
   "keywords": [
     "css",
     "sass",
     "html",
-    "responsive",
-    "theme",
-    "template"
+    "responsive"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/agency",
+  "homepage": "http://uwhpsub.com/",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-    "email": "feedback@startbootstrap.com"
+    "url": "https://github.com/BLiu1/uwhpsub-website/issues",
+    "email": "liubrian1998@yahoo.com"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": [
+    "Start Bootstrap",
+    "BLiu1"
+  ],
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "David Miller (http://davidmiller.io/)",
+    "Brian Liu (http://bliu1.tk)",
+    "Sam Lee (https://www.linkedin.com/sam-lee888)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    "url": "https://github.com/BLiu1/uwhpsub-website.git"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
