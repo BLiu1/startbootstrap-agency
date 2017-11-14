@@ -6,6 +6,8 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  background-color: $dark;
+  background-blend-mode: overlay;
   @include background-cover;
   .intro-text {
     padding-top: 150px;

@@ -39,7 +39,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
 
 @media (min-width: 768px) {
   section {
@@ -164,6 +164,8 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  background-color: #343a40;
+  background-blend-mode: overlay;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -176,7 +178,7 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -193,7 +195,7 @@ header.masthead {
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
@@ -252,7 +254,7 @@ header.masthead {
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
 
 #teams * {
   z-index: 2; }
@@ -284,7 +286,7 @@ header.masthead {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
   .teams-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
