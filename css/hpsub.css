@@ -1,8 +1,3 @@
-/*!
- * UW Human Powered Submarine Team Website v0.0.0-alpha.0 (http://uwhpsub.com/)
- * Copyright 2017-2017 Start Bootstrap,BLiu1
- * Licensed under MIT (https://github.com/BLiu1/uwhpsub-website/blob/master/LICENSE)
- */
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -44,7 +39,6 @@ section {
 @media (min-width: 768px) {
   section {
     padding: 150px 0; } }
-
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700; }
@@ -61,25 +55,17 @@ section {
     color: white;
     border-color: #543195;
     background-color: #59339d; }
-  .btn-primary.active, .btn-primary:active,
-  .open > .btn-primary.dropdown-toggle {
+  .btn-primary.active, .btn-primary:active, .open > .btn-primary.dropdown-toggle {
     color: white;
     border-color: #543195;
     background-color: #59339d; }
-    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
-    .open > .btn-primary.dropdown-toggle.focus,
-    .open > .btn-primary.dropdown-toggle:focus,
-    .open > .btn-primary.dropdown-toggle:hover {
+    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .btn-primary.dropdown-toggle.focus, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle:hover {
       color: white;
       border-color: #382063;
       background-color: #492b82; }
-  .btn-primary.active, .btn-primary:active,
-  .open > .btn-primary.dropdown-toggle {
+  .btn-primary.active, .btn-primary:active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
-  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
-  fieldset[disabled] .btn-primary.focus,
-  fieldset[disabled] .btn-primary:focus,
-  fieldset[disabled] .btn-primary:hover {
+  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
     border-color: #6f42c1;
     background-color: #6f42c1; }
   .btn-primary .badge {
@@ -156,11 +142,10 @@ body {
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
-
 header.masthead {
-  text-align: center;
   color: white;
   background-image: url("../img/purple-seattle.jpg");
+  height: 100vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -171,38 +156,38 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-top: 50%; }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
+      font-size: 20px;
+      line-height: 20px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
     header.masthead .intro-text .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
+      font-size: 25px;
+      line-height: 25px;
       margin-bottom: 25px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
     header.masthead .intro-text .intro-lead-in {
-      font-size: 40px;
-      font-style: italic;
-      line-height: 40px;
-      margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
+      line-height: 30px; }
     header.masthead .intro-text .intro-heading {
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px;
-      margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
-
+      font-size: 35px;
+      line-height: 35px;
+      margin-bottom: 50px; } }
+@media (min-width: 992px) {
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 30px; }
+  header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 50px; } }
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
@@ -255,19 +240,16 @@ header.masthead {
       font-style: italic;
       margin: 0;
       font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
-
 #teams * {
   z-index: 2; }
 
 @media (min-width: 767px) {
   #teams .teams-item {
     margin: 0 0 30px; } }
-
 .teams-modal .modal-dialog {
   max-width: none;
   height: 100%;
   margin: 0; }
-
 .teams-modal .modal-content {
   min-height: 100%;
   padding: 100px 0;
@@ -294,7 +276,6 @@ header.masthead {
     margin-bottom: 30px; }
   .teams-modal .modal-content button {
     cursor: pointer; }
-
 .teams-modal .close-modal {
   position: absolute;
   top: 25px;
@@ -326,7 +307,6 @@ header.masthead {
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
       background-color: #212529; }
-
 .teams-modal .modal-backdrop {
   display: none;
   opacity: 0; }
@@ -434,7 +414,6 @@ header.masthead {
       float: right;
       padding: 0 30px 20px 20px;
       text-align: left; } }
-
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px; }
@@ -450,7 +429,6 @@ header.masthead {
         margin-top: 30px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px; } }
-
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px; }
@@ -464,7 +442,6 @@ header.masthead {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
-
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
@@ -549,3 +526,5 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #6f42c1; }
+
+/*# sourceMappingURL=hpsub.css.map */
