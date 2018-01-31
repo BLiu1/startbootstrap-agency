@@ -156,7 +156,8 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 50%; }
+    padding-top: 35vh;
+    padding-bottom: 50vh; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 20px;
       line-height: 20px;
@@ -169,18 +170,12 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding: 0%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
-    header.masthead .intro-text .intro-lead-in {
-      line-height: 30px; }
-    header.masthead .intro-text .intro-heading {
-      font-size: 35px;
-      line-height: 35px;
-      margin-bottom: 50px; } }
+  header.masthead .intro-text .intro-lead-in {
+    line-height: 30px; }
+  header.masthead .intro-text .intro-heading {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 50px; } }
 @media (min-width: 992px) {
   header.masthead .intro-text .intro-lead-in {
     font-size: 30px; }

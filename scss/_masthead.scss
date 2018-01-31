@@ -10,7 +10,8 @@ header.masthead {
   background-blend-mode: overlay;
   @include background-cover;
   .intro-text {
-    padding-top: 50%;
+    padding-top: 35vh;
+    padding-bottom: 50vh;
     .intro-lead-in {
       font-size: 20px;
       line-height: 20px;
@@ -29,11 +30,6 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding: 0%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
         .intro-lead-in {
         line-height: 30px;
       }
