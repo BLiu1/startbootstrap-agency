@@ -2,7 +2,7 @@
 header.masthead {
   color: white;
   background-image: url('../img/purple-seattle.jpg');
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -13,14 +13,14 @@ header.masthead {
     padding-top: 35vh;
     padding-bottom: 50vh;
     .intro-lead-in {
-      font-size: 20px;
-      line-height: 20px;
+      font-size: 3vh;
+      line-height: 3vh;
       margin-bottom: 25px;
       @include serif-font;
     }
     .intro-heading {
-      font-size: 25px;
-      line-height: 25px;
+      font-size: 5vh;
+      line-height: 5vh;
       margin-bottom: 25px;
       @include heading-font;
     }
@@ -30,12 +30,9 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-        .intro-lead-in {
-        line-height: 30px;
-      }
       .intro-heading {
-        font-size: 35px;
-        line-height: 35px;
+        font-size: 7vh;
+        line-height: 7vh;
         margin-bottom: 50px;
       }
     }
@@ -44,13 +41,14 @@ header.masthead {
 
 @media(min-width:992px) {
   header.masthead {
+    height: 100vh;
     .intro-text {
       .intro-lead-in {
-        font-size: 30px;
+        font-size: 6vh;
       }
       .intro-heading {
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 9vh;
+        line-height: 9vh;
         margin-bottom: 50px;
       }
     }
