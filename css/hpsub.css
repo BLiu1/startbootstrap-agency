@@ -207,6 +207,11 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+#services em {
+  font-style: normal;
+  color: #fff;
+  background-color: #6f42c1; }
+
 #teams .teams-item {
   right: 0;
   margin: 0 0 15px; }
