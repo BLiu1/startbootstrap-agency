@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    
+    <link rel="icon" href="img/sub-page-icon_48px.png?1">
     <title>UW Human Powered Submarine Team Website</title>
 
     <!-- Bootstrap core CSS -->
@@ -21,7 +22,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/hpsub.min.css" rel="stylesheet">
+    <!-- <link href="css/hpsub.min.css" rel="stylesheet"> -->
+    <link href="css/hpsub.css" rel="stylesheet">
 
   </head>
 
@@ -30,27 +32,28 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">UWHPS
-        <!-- <img src="img/hps-logo.png" alt="hpsubLogo"> -->
+        <a class="navbar-brand js-scroll-trigger"  href="#page-top">
+        <img src="img/hps-logo.png" alt="hpsubLogo" width="35" height="30" class="d-inline-block align-top">
+        UWHPS
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
+        <div class="collapse navbar-collapse text-sm-right" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto  text-right">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#teams">Teams</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">People</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -62,10 +65,22 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">University of Washington</div>
-          <div class="intro-heading text-uppercase">Human Powered Submarine</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div class="intro-text text-center">
+          <div class="intro-lead-in font-italic">University of Washington</div>
+          <div class="intro-heading text-uppercase font-weight-bold">Human Powered Submarine</div>
+          <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+          <div class="d-none d-md-block"> <!-- this removes the buttons from the header when the website is on a mobile screen -->
+            <!-- TODO: Add links for buttons! -->
+            <a href="">
+              <button type="button" class="btn btn-primary btn-md text-uppercase js-scroll-trigger">Sponsor Us</button>
+            </a>
+            <a href="">
+              <button type="button" class="btn btn-primary btn-md text-uppercase js-scroll-trigger">Donate</button>
+            </a>
+            <a href="">
+              <button type="button" class="btn btn-primary btn-md text-uppercase js-scroll-trigger">Follow Us</button>
+            </a>
+          </div>
         </div>
       </div>
     </header>
@@ -235,7 +250,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Support Us <!--(Give us your money $$$ Make it rain BIG) --></h2>
+            <h2 class="section-heading text-uppercase">Support Us</h2>
             <h3 class="section-subheading text-muted">Help our team achieve new heights!</h3>
           </div>
         </div>
@@ -354,7 +369,7 @@
     -->
 
     <!-- Member Info -->
-    <section class="bg-light" id="team">
+    <!-- <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -442,12 +457,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Sponsors -->
     <section class="py-5">
       <div class="container">
         <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Huge Shoutout To Our Sponsors!</h2>
+            <h4 class="section-heading font-weight-light">We Couldn't Do It Without Your Support!</h4>
+          </div>
           <div class="col-md-3 col-sm-6">
             <a href="#">
               <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
@@ -574,7 +593,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Hull Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/01-full.jpg" alt="">
                   <p>It all starts with hydrodynamics. An innovative team optimizes the sub’s hull for unmatched performance. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -608,7 +626,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Controls Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/02-full.jpg" alt="">
                   <p>Two words: slalom gates. This team of engineers enables the pilot to navigate the racecourse at the touch of a finger. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -642,7 +659,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Electronics Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/03-full.jpg" alt="">
                   <p>An eccentric team of electrical engineers, computer scientists, and magicians develops the future of submarine control. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -676,7 +692,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Drivetrain Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/04-full.jpg" alt="">
                   <p>A hardworking team of friction-fighters takes the power seamlessly from the pilot to the propeller. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -710,7 +725,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Propulsion Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/05-full.jpg" alt="">
                   <p>A sharp team of aeronautical and mechanical engineers design the most efficient propeller known to man(power). ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -744,7 +758,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Divers</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/06-full.jpg" alt="">
                   <p>An elite team of highly-trained pilots and support divers execute our underwater operations without a hitch. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -778,7 +791,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Composites Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/06-full.jpg" alt="">
                   <p>Use this area to describe your project. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -812,7 +824,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Manufacturing Team</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/06-full.jpg" alt="">
                   <p>Use this area to describe your project. ADD TEAM MEMBERS</p>
                   <ul class="list-inline">
@@ -846,7 +857,6 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">The Team Leads</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                   <img class="img-fluid d-block mx-auto" src="img/teams/02-full.jpg" alt="">
                   <p>Use this area to describe your project. ADD TEAM LEADS</p>
                   <ul class="list-inline">
