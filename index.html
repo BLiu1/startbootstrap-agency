@@ -43,7 +43,7 @@
         <div class="collapse navbar-collapse text-sm-right" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto  text-right">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#teams">Teams</a>
@@ -54,6 +54,12 @@
             <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">People</a>
             </li> -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Support Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#thanks">Sponsors</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -69,16 +75,15 @@
           <div class="intro-lead-in font-italic">University of Washington</div>
           <div class="intro-heading text-uppercase font-weight-bold">Human Powered Submarine</div>
           <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
-          <div class="d-none d-md-block"> <!-- this removes the buttons from the header when the website is on a mobile screen -->
-            <!-- TODO: Add links for buttons! -->
-            <a href="">
-              <button type="button" class="btn btn-primary btn-md text-uppercase js-scroll-trigger">Sponsor Us</button>
+          <div class="d-none d-sm-block"> <!-- this removes the buttons from the header when the website is on a mobile screen -->
+            <a class="js-scroll-trigger" href="#contact">
+              <button type="button" class="btn btn-primary btn-lg text-uppercase">Sponsor Us</button>
             </a>
-            <a href="">
-              <button type="button" class="btn btn-primary btn-md text-uppercase js-scroll-trigger">Donate</button>
+            <a href="https://www.washington.edu/giving/make-a-gift/?page=funds&source_typ=2&source=EDZ">
+              <button type="button" class="btn btn-primary btn-lg text-uppercase">Donate</button>
             </a>
-            <a href="">
-              <button type="button" class="btn btn-primary btn-md text-uppercase js-scroll-trigger">Follow Us</button>
+            <a href="https://www.facebook.com/uwhps">
+              <button type="button" class="btn btn-primary btn-lg text-uppercase">Follow Us</button>
             </a>
           </div>
         </div>
@@ -86,7 +91,7 @@
     </header>
 
     <!-- About -->
-    <section id="services">
+    <section id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -98,7 +103,7 @@
             <img class="img-fluid" src="img/teams/full/hull.jpg" alt="">
           </div>
           <div class="col-md-5 col-sm-12">
-            <p class="text-muted">We are a community of <em>driven</em> students from across the University of Washington who believe that everyone is capable of <em>impactful and original work.</em></p>
+            <p class="text-muted">We are a community of <em>driven</em> students from across the University of Washington that believes that everyone is capable of <em>impactful and original work.</em></p>
             <p class="text-muted">Every year, we come together to <em>share our passion</em> with others, and build the <em>fastest</em> human powered submarine in the world.</p>
           </div>
         </div>
@@ -114,7 +119,7 @@
             <h3 class="section-subheading text-muted">The sub-teams of The Sub Team.</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-4 col-sm-6 teams-item">
             <a class="teams-link" data-toggle="modal" href="#teamsModal1">
               <div class="teams-hover">
@@ -234,22 +239,22 @@
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <a>
+            <a class="nav-link js-scroll-trigger" href="#contact">
               <span class="fa-stack fa-4x">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
               </span>
+              <h4 class="service-heading">Sponsor Us!</h4>
             </a>
-            <h4 class="service-heading">Sponsor Us!</h4>
           </div>
           <div class="col-md-4">
-            <a href="https://uw.useed.net/projects/723/home">
+            <a href="https://www.washington.edu/giving/make-a-gift/?page=funds&source_typ=2&source=EDZ">
               <span class="fa-stack fa-4x">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-gift fa-stack-1x fa-inverse"></i>
               </span>
+              <h4 class="service-heading">Donate!</h4>
             </a>
-            <h4 class="service-heading">Donate!</h4>
           </div>
           <div class="col-md-4">
             <a href="https://www.facebook.com/uwhps">
@@ -257,8 +262,8 @@
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-facebook-square fa-stack-1x fa-inverse"></i>
               </span>
+              <h4 class="service-heading">Follow Us!</h4>
             </a>
-            <h4 class="service-heading">Follow Us!</h4>
           </div>
         </div>
       </div>
@@ -438,31 +443,74 @@
     </section> -->
 
     <!-- Sponsors -->
-    <section class="py-5">
+    <section id="thanks" class="bg-light py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
+        <div class="row align-items-center">
+          <div class="col-lg-12 text-center mb-3">
             <h2 class="section-heading text-uppercase">Huge Shoutout To Our Sponsors!</h2>
             <h4 class="section-heading font-weight-light">We Couldn't Do It Without Your Support!</h4>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-sm-12">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">
+              <img class="img-fluid d-block mx-auto m-3" src="img/logos/apl.png" alt="Applied Physics Lab">
             </a>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-sm-12">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">
+              <img class="img-fluid d-block mx-auto m-3" src="img/logos/me.png" alt="University of Washington Mechanical Engineering">
             </a>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-sm-12 text-center">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
+              <img class="img-fluid d-blockinline mx-4 my-3" src="img/logos/bptd.png" alt="Breedt Production Tooling and Design">
             </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
             <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/claroworks.png" alt="Claroworks">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/clickbond.png" alt="Click Bond">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/colorcraft.png" alt="Color Craft">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/divex.png" alt="Dive X">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/electroimpact.png" alt="ElectroImpact">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/fiberlay.png" alt="Fiberlay USA">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/fluke.png" alt="Fluke">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/hexcel.png" alt="Hexcel Composites">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/janicki.png" alt="Janicki Industries">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/jensen-motorboat.png" alt="Jensen Motorboat">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/lighthouse-diving.png" alt="Lighthouse Diving">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/nwswbb.png" alt="Northwest School of Wooden Boatbuilding">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/r-and-e-cycles.png" alt="R & E Cycles">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/sname.png" alt="Society of Naval Architects and Marine Engineers">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/tap-plastics.png" alt="Tap Plastics">
+            </a>
+            <a href="#">
+              <img class="img-fluid d-inlineblock mx-4 my-3" src="img/logos/umbra.png" alt="Umbra Group">
             </a>
           </div>
         </div>
@@ -475,7 +523,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">If interested in sponsorships, please start message with ATTN: Sponsor</h3>
           </div>
         </div>
         <div class="row">
@@ -519,7 +567,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2017</span>
+            <span class="copyright">Copyright &copy; Human Powered Submarine Team 2017 - 2018</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -540,7 +588,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
                 <a href="#">Privacy Policy</a>
@@ -549,7 +597,7 @@
                 <a href="#">Terms of Use</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>
@@ -892,7 +940,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/hpsub.min.js"></script>
-
   </body>
 
 </html>

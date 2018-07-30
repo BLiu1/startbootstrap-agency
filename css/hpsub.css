@@ -1,3 +1,8 @@
+/*!
+ * UW Human Powered Submarine Team Website v0.0.0-alpha.0 (http://uwhpsub.com/)
+ * Copyright 2017-2018 Start Bootstrap,BLiu1
+ * Licensed under MIT (https://github.com/BLiu1/uwhpsub-website/blob/master/LICENSE)
+ */
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -39,6 +44,7 @@ section {
 @media (min-width: 768px) {
   section {
     padding: 150px 0; } }
+
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700; }
@@ -55,17 +61,25 @@ section {
     color: white;
     border-color: #543195;
     background-color: #59339d; }
-  .btn-primary.active, .btn-primary:active, .open > .btn-primary.dropdown-toggle {
+  .btn-primary.active, .btn-primary:active,
+  .open > .btn-primary.dropdown-toggle {
     color: white;
     border-color: #543195;
     background-color: #59339d; }
-    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .btn-primary.dropdown-toggle.focus, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle:hover {
+    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+    .open > .btn-primary.dropdown-toggle.focus,
+    .open > .btn-primary.dropdown-toggle:focus,
+    .open > .btn-primary.dropdown-toggle:hover {
       color: white;
       border-color: #382063;
       background-color: #492b82; }
-  .btn-primary.active, .btn-primary:active, .open > .btn-primary.dropdown-toggle {
+  .btn-primary.active, .btn-primary:active,
+  .open > .btn-primary.dropdown-toggle {
     background-image: none; }
-  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
+  fieldset[disabled] .btn-primary.focus,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary:hover {
     border-color: #6f42c1;
     background-color: #6f42c1; }
   .btn-primary .badge {
@@ -142,6 +156,7 @@ body {
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
+
 header.masthead {
   color: white;
   background-image: url("../img/purple-seattle.jpg");
@@ -174,6 +189,7 @@ header.masthead {
     font-size: 7vh;
     line-height: 7vh;
     margin-bottom: 50px; } }
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh; }
@@ -183,14 +199,15 @@ header.masthead {
       font-size: 9vh;
       line-height: 9vh;
       margin-bottom: 50px; } }
+
+#about em {
+  font-style: normal;
+  color: #6f42c1;
+  font: underline; }
+
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
-
-#services em {
-  font-style: normal;
-  color: #fff;
-  background-color: #6f42c1; }
 
 #teams .teams-item {
   right: 0;
@@ -240,16 +257,19 @@ header.masthead {
       font-style: italic;
       margin: 0;
       font-family: 'Droid Serif', 'Times New Roman', Times, serif; }
+
 #teams * {
   z-index: 2; }
 
 @media (min-width: 767px) {
   #teams .teams-item {
     margin: 0 0 30px; } }
+
 .teams-modal .modal-dialog {
   max-width: none;
   height: 100%;
   margin: 0; }
+
 .teams-modal .modal-content {
   min-height: 100%;
   padding: 100px 0;
@@ -276,6 +296,7 @@ header.masthead {
     margin-bottom: 30px; }
   .teams-modal .modal-content button {
     cursor: pointer; }
+
 .teams-modal .close-modal {
   position: absolute;
   top: 25px;
@@ -307,6 +328,7 @@ header.masthead {
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
       background-color: #212529; }
+
 .teams-modal .modal-backdrop {
   display: none;
   opacity: 0; }
@@ -414,6 +436,7 @@ header.masthead {
       float: right;
       padding: 0 30px 20px 20px;
       text-align: left; } }
+
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px; }
@@ -429,6 +452,7 @@ header.masthead {
         margin-top: 30px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px; } }
+
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px; }
@@ -442,6 +466,7 @@ header.masthead {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
+
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
@@ -526,5 +551,3 @@ ul.social-buttons {
     background-color: #212529; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #6f42c1; }
-
-/*# sourceMappingURL=hpsub.css.map */
